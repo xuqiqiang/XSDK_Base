@@ -53,7 +53,7 @@
             android:textColor="#FF000000"
             android:textSize="20sp" />
 
-        <com.snailstudio.library.baseview.CustomDialogListView
+        <com.snailstudio.xsdk.baseview.CustomDialogListView
             android:id="@+id/select_list"
             android:layout_width="300dip"
             android:layout_height="400dip"
@@ -80,8 +80,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/custom_dialog_positive_button"
+            android:maxLines="1"
             android:padding="12dip"
-            android:singleLine="true"
             android:text="@string/yes"
             android:textColor="@color/bg_white"
             android:textSize="20sp" />
@@ -93,8 +93,8 @@
             android:layout_marginLeft="3dip"
             android:layout_weight="1"
             android:background="@drawable/custom_dialog_negative_button"
+            android:maxLines="1"
             android:padding="12dip"
-            android:singleLine="true"
             android:text="@string/no"
             android:textColor="@color/bg_white"
             android:textSize="20sp" />
@@ -106,8 +106,8 @@
             android:layout_marginLeft="3dip"
             android:layout_weight="1"
             android:background="@drawable/custom_dialog_extra_button"
+            android:maxLines="1"
             android:padding="12dip"
-            android:singleLine="true"
             android:text="@string/other"
             android:textColor="@color/bg_white"
             android:textSize="20sp"
